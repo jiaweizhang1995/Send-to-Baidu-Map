@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "Send to Baidu Map - 一键百度地图",
+  "version": "1.0",
+  "description": "这款插件名为一键百度地图，让您轻松实现地址搜索和路径规划功能。只需简单选中任何一段文字，右键点击，就可以快速在百度地图上查找地址。轻松、便捷、实用，让您的浏览体验更上一层楼！立即尝试，开启智能地图探索之旅！",
+  "permissions": ["contextMenus", "geolocation", "tabs"],
+  "icons":{
+      "16": "icon16.png",
+      "32": "icon32.png",
+      "48": "icon48.png"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}
